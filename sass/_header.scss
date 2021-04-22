@@ -3,6 +3,11 @@
   justify-content: space-around;
   padding: 0.8rem;
 
+  a:link,
+  a:visited {
+    color: var(--color-n-dark-cyan);
+  }
+
   a:hover {
     color: hsl(322, 100%, 66%);
     text-decoration: none;
@@ -31,6 +36,7 @@
     a:link,
     a:visited {
       text-decoration: none;
+      color: var(--color-n-dark-cyan);
     }
 
     a:hover {
