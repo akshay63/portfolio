@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,UAAU;CAC7B",
+    "sources": [
+        "main.scss",
+        "_base.scss",
+        "_components.scss",
+        "_footer.scss",
+        "_header.scss",
+        "_projects.scss",
+        "_typography.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

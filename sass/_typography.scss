@@ -1,0 +1,59 @@
+.primary-heading {
+  font-size: 4rem;
+  font-family: "Georgia", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.name {
+  color: var(--color-p);
+  font-weight: normal;
+}
+
+.surname {
+  color: var(--color-n-dark-cyan);
+}
+
+.info {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.aboutme {
+  font-size: 1.3rem;
+  width: 80%;
+}
+
+.secondary-heading {
+  font-size: 3rem;
+  font-family: "Georgia", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.tertiary-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-name {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 940px) {
+  .primary-heading,
+  .info {
+    text-align: center;
+  }
+  .aboutme {
+    text-align: left;
+    width: 100%;
+  }
+}

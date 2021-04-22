@@ -1,0 +1,75 @@
+.card {
+  width: 31rem;
+  border-radius: 1rem;
+  background-color: var(--color-p-dark);
+  overflow: hidden;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+
+  &__description {
+    padding: 2rem;
+  }
+
+  &__thumbnail {
+    background-size: cover;
+    height: 32rem;
+
+    &--1 {
+      background-image: url(../images/sp-1.jpg);
+    }
+    &--2 {
+      background-image: url(../images/sp-2.jpg);
+    }
+    &--3 {
+      background-image: url(../images/sp-3.jpg);
+    }
+  }
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.fp {
+  justify-content: flex-start;
+}
+
+.fp > * {
+  margin-right: 2rem;
+}
+
+.btn:link,
+.btn:visited {
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  font-size: 1.3rem;
+  background-color: var(--color-btn-p);
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--color-btn-p-light);
+}
+
+.btn:active {
+  background-color: var(--color-violet);
+}
+
+@media only screen and (max-width: 1240px) {
+  .card {
+    width: 100%;
+  }
+  .card:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+
+  .btn-group {
+    justify-content: flex-start;
+  }
+
+  .btn-group > * {
+    margin-right: 2rem;
+  }
+}
